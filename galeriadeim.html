@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Página de Ejemplo</title>
+    <style>
+        section {
+            display: flex;
+            width: 600px;
+            height: 430px;
+        }
+        section img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+        }
+        section img:hover {
+            cursor: crosshair;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2015/04/mBtqGsN.jpg?resize=750%2C400&ssl=1">
+        <img src="https://www.gamespot.com/a/uploads/original/1365/13658182/2559799-bak_sshot075.jpg">
+        <img src="https://w0.peakpx.com/wallpaper/535/110/HD-wallpaper-arthur-morgan-red-dead-redemption-2.jpg">
+        <img src="https://4kwallpapers.com/images/walls/thumbs_3t/3963.jpg">
+        <img src="https://assets.vg247.com/current//2018/06/resident_evil_2_e3_2018_new-8.jpg">
+    </section>
+</body>
+</html>
